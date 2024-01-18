@@ -1,0 +1,47 @@
+USER STORY:
+
+As a user, I want to verify that the area calculator correctly computes the area of geometric shapes (circle, rectangle, and triangle) 
+under various conditions, ensuring accurate results and appropriate error handling, so that I can rely on the calculator for precise 
+calculations and robust behavior.
+
+TEST CASES:
+
+Calculate Circle Area:
+Scenario: The user provides a positive radius for a circle.
+Expected Result: The calculator should return the correct area for the circle, considering the provided radius.
+
+Calculate Rectangle Area:
+Scenario: The user provides positive length and width for a rectangle.
+Expected Result: The calculator should accurately compute and return the area of the rectangle based on the given dimensions.
+
+Calculate Triangle Area:
+Scenario: The user provides positive values for the base and height of a triangle.
+Expected Result: The calculator should correctly calculate and return the area of the triangle using the provided base and height.
+
+Calculate Triangle Area with Decimal Values:
+Scenario: The user provides decimal values for both the base and height of a triangle.
+Expected Result: The calculator should handle decimal inputs and accurately compute the area of the triangle.
+
+Calculate Circle Area with a Zero Radius:
+Scenario: The user sets the radius of a circle to zero.
+Expected Result: The calculator should return an area of zero since a circle with zero radius has no area.
+
+Calculate Rectangle Area with Zero Length:
+Scenario: The user sets the length of a rectangle to zero.
+Expected Result: The calculator should return an area of zero, as a rectangle with zero length has no area.
+
+Calculate Circle Area with a Negative Radius:
+Scenario: The user attempts to calculate the area of a circle with a negative radius.
+Expected Result: The calculator should throw an error with the message "Radius cannot be negative."
+
+Calculate Rectangle Area with Negative Length:
+Scenario: The user attempts to calculate the area of a rectangle with a negative length.
+Expected Result: The calculator should throw an error with the message "Length and width cannot be negative."
+
+Calculate Circle Area with a Large Radius:
+Scenario: The user calculates the area of a circle with a large positive radius.
+Expected Result: The calculator should accurately handle and return the area of the circle, considering the large radius.
+
+Calculate Rectangle Area with Large Length and Small Width:
+Scenario: The user calculates the area of a rectangle with a large length and a small width.
+Expected Result: The calculator should accurately compute and return the area of the rectangle, considering the provided dimensions.
